@@ -1,0 +1,310 @@
+@charset "UTF-8"; /*Define a codificação da folha de estilo Unicode UTF-8 */
+/*Todos elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Elemento da tag <body> */
+ body {
+     background-color: #F56B0F;
+     font-style: oblique;
+     text-shadow: 1px 1px 1px purple;  
+     position: fixed;
+     min-width: 100%;
+     min-height: 100%;
+     margin: auto;
+ } 
+/*Elemento Tag <h1>*/
+h1{
+    font-size: 45px;
+    position: relative;
+    left: 1100px;
+    top: 30px;
+}
+/*Elemento com ID "subtitulo" */
+#subtitulo{
+    font-size: 18px;
+    position: relative;
+    left: 1160px;
+    top: 45px;
+}
+ /*Elemento com a CLASS "formulario" */
+ .formulario{
+     border: 0;
+     font-size: 25px;
+     position: relative;
+     left: 1000px;
+     top: 50px;
+ }
+ /*Elemento com ID "email" */
+ #email{
+     margin-top: 5px;
+ }
+ /*Elemento com ID "senioridade" */
+ #senioridade{
+     border-radius: 5px;
+     font-size: 18px;
+     font-style: oblique;
+ }
+ /*Elemento com a CLASS "tecnologia" */
+ .tecnologia p {
+     margin-bottom: 0px;
+ }
+ /*Elemento com ID "aplicacao" */
+ #aplicacao{
+     position: relative;
+     left: 1000px;
+     top: 68px;
+     font-size: 25px;
+ }
+ /*Elemento com a CLASS "tecnologia" */
+ .tecnologia{
+    border: 0;
+    font-size: 25px;
+    position: relative;
+    top: 70px;
+    left: 1000px;
+ }
+ /*Elemento com ID "opcoes"*/
+ #opcoes{
+    font-size: 25px;
+    border: 0;
+    position: relative;
+    left: 1000px;
+    top: 90px;
+ }
+ /*Elemento com a CLASS "linguagens" */
+ .linguagens{
+      font-size: 25px;
+      border: 0;
+ }
+ /*Elemento com ID "paragrafo" */
+ #paragrafo{
+    margin-bottom: 18px;
+    position: absolute;
+    left: 1000px;
+    top: 430px;   
+    font-size: 25px;
+}
+/*Elemento com  CLASS "tecnologia1" */
+.tecnologia1{
+    position: absolute;
+    left: 1000px;
+    top: 480px;
+    font-size: 22px;
+}
+/*Elemento com a CLASS "tecnologia2" */
+.tecnologia2{
+    position: absolute;
+    font-size: 22px;
+    left: 1100px;
+    top: 480px;
+}
+/*Elemento com a CLASS "tecnologia3" */
+.tecnologia3{
+    position: absolute;
+    font-size: 22px;
+    left: 1180px;
+    top: 480px;
+}
+/*Elemento com a CLASS "tecnologia4" */
+.tecnologia4{
+    position: absolute;
+    font-size: 22px;
+    left: 1315px;
+    top: 480px;
+}
+/*Elemento com a CLASS "tecnologia5" */
+.tecnologia5{
+    position: absolute;
+    font-size: 22px;
+    left: 1430px;
+    top: 480px;
+}
+/*Elemento com a CLASS "tecnologia6" */
+.tecnologia6{
+    position: absolute;
+    font-size: 22px;
+    left: 1000px;
+    top: 520px;
+}
+/*Elemento com a CLASS "tecnologia7" */
+.tecnologia7{
+    position: absolute;
+    font-size: 22px;
+    left: 1100px;
+    top: 520px;
+}
+/*Elemento com a CLASS "tecnologia8" */
+.tecnologia8{
+    position: absolute;
+    font-size: 22px;
+    left: 1180px;
+    top: 520px;
+}
+/*Elemento com a CLASS "tecnologia9" */
+.tecnologia9{
+    position: absolute;
+    font-size: 22px;
+    left: 1315px;
+    top: 520px;
+}
+/*Elemento com a CLASS "tecnologia10"*/
+.tecnologia10{
+    position: absolute;
+    font-size: 22px;
+    left: 1430px;
+    top: 520px;
+}
+/*Elemento com a CLASS "tecnologia11" */
+.tecnologia11{
+    position: absolute;
+    font-size: 22px;
+    left: 1000px;
+    top: 560px;
+}
+/*Elemento com a CLASS "tecnologia12" */
+.tecnologia12{
+    position: absolute;
+    font-size: 22px;
+    left: 1100px;
+    top: 560px;
+}
+/*Elemento com a CLASS "tecnologia13" */
+.tecnologia13{
+    position: absolute;
+    font-size: 22px;
+    left: 1180px;
+    top: 560px;
+}
+/*Elemento com a CLASS "tecnologia14" */
+.tecnologia14{
+    position: absolute;
+    font-size: 22px;
+    left: 1315px;
+    top: 560px;
+}
+/*Elemento com a CLASS "bancodedados" com a tag <select> */
+select.bancodedados{
+     border: 0px;
+     position: absolute;
+     top: 665px;
+     left: 1000px;
+     font-size: 18px;
+     border-radius: 5px;
+     font-style: oblique;
+     width: 200px;
+ }
+ /*Elemento com a CLASS "bancodedadosselecione" */
+ .bancodedadosselecione{
+     position: absolute;
+     left: 1000px;
+     top: 625px;
+     font-size: 25px;
+ }
+ /*Elemento com a CLASS "projeto1" com a tag <fieldset> */
+ fieldset.projeto1{
+     font-size: 25px;
+     border: 0;
+     position: absolute;
+     top: 700px;
+     left: 1000px;
+ }
+ /*Elemento com a CLASS "campoprojeto1", "campoprojeto2", "campoprojeto3" com a tag <select> */
+ select.campoprojeto1, select.campoprojeto2, select.campoprojeto3{
+     font-size: 18px;
+     border-radius: 5px;
+     font-style: oblique;
+     width: 105px;
+ }
+ /*Elemento com a CLASS "campoprojeto1", "campoprojeto2", campoprojeto3, com o estado da pseudoclasse "hover" */
+ select.campoprojeto1:hover, select.campoprojeto2:hover, select.campoprojeto3:hover, select.bancodedados:hover, #senioridade:hover{
+     background-color: #1BE8F5;
+     cursor: pointer;
+ }
+ /*Elemento com a CLASS "projeto2" com a tag <fieldset> */
+ fieldset.projeto2{
+     font-size: 25px;
+     border: 0;
+     position: absolute;
+     top: 780px;
+     left: 1000px;
+ }
+ /*Elemento com a CLASS "projeto3" com a tag <fieldset> */
+ fieldset.projeto3{
+     font-size: 25px;
+     border: 0;
+     position: absolute;
+     top: 860px;
+     left: 1000px;
+ }
+ /*Elemento com a ID "experiencia"*/
+ #experiencia{
+     position: absolute;
+     left: 1000px;
+     top: 940px;
+     font-size: 25px;
+ }
+ /*Elemento com ID "comentario" */
+ #comentario{
+     position: relative;
+     left: 1000px;
+     top: 660px;
+     width: 580px;
+     height: 190px;
+     text-shadow: 1px 1px 4px purple;
+     font-size: 20px;
+     font-weight: 900px;
+     box-shadow: 3px 3px 9px #bd2dbd;
+ }
+ /*Elemento com ID "comentario" com o estado da pseudoclasse "hover" */
+ #comentario:hover{
+     background-color: #a596bb;
+     font-size: 20px;
+ }
+ /*Elemento com a CLASS "bancodedados" */
+ .bancodedados{
+     font-size: 25px;
+     position: absolute;
+     left: 1000px;
+     top: 600px;
+ }
+ /*Tag <input> com atributo "checkbox" */
+ input[type="checkbox"]{
+     width: 20px;
+     height: 18px;
+ }
+ /*Tag <input> com atributo "text" */
+ input[type="text"]{
+     font-size: 18px;
+     text-shadow: 1px 1px 4px purple;
+ }
+ /*Tag <input> com atributo "text" com o estado da pseudoclasse "hover" */
+ input[type="text"]:hover{
+    background-color: #af77a4;
+ }
+ /*Tag <button> */
+ button{
+     color: red;
+     position: relative;
+     left: 1100px;
+     top: 680px;
+     font-size: 25px;
+     font-style: oblique;
+     width: 15%;
+     cursor: pointer;
+ }
+ /*Tag <button> com o estado da pseudoclasse "hover" */
+ button:hover{
+     background-color: #7114F5;
+ }
+ @media (max-width: 800px) {
+     body {
+       background-color: #7114F5;
+     }
+ }
+ 
+
+ 
+ 
+
