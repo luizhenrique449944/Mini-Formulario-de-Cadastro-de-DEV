@@ -300,9 +300,11 @@ select.bancodedados{
  }
  @media (max-width: 800px) {
      body {
-       background-color: #7114F5;
+        width: 100%;
      }
  }
+
+
  
 
  
