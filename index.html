@@ -8,7 +8,9 @@
     <meta name="keyworlds" content="HTML,CSS">
     <meta name="author" content="Luiz Henrique Ramos dos Santos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ícone no top -->
     <link rel="shortcut icon" href="ÍCONE/check-form_116472.ico" type="image/x-icon">
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
     <title>Mini Formulário Cadastro</title>
 </head>
@@ -23,6 +25,7 @@
     <!-- Início do formulário -->
     <form method="POST" action="http://arquivo.devmedia.com.br/projeto/requisicao.php">
 
+        <!-- Elemento dce Tag <fieldset> com a CLASSE "formulário" -->
         <fieldset class="formulario">
             <div>
                 <label for="nome">Nome:</label>
@@ -31,13 +34,13 @@
                 <label for="sobrenome">Sobrenome:</label>
                 <input type="text" name="Sobrenome" id="sobrenome" required>
             </div>
-
+        <!-- Tag <div> com id "email" -->
             <div id="email">
                 <label for="email">Email:</label>
                 <input type="text" name="E-mail" id="email" required>
             </div>
         </fieldset>
-
+        <!-- Tag <p> com id "aplicacao" e Tag <div> com a CLASSE "tecnologia" -->
         <p id="aplicacao">De qual lado da aplicação você desenvolve?</p>
         <div class="tecnologia">
             <input type="radio" class="desenvolvedor" name="Desenvolvedor" value="Front-End" checked>
@@ -47,7 +50,7 @@
             <input type="radio" class="desenvolvedor" name="Desenvolvedor" value="FullStacks">
             <label>FullStacks</label>
         </div>
-
+        <!-- Tag <div> com id "opcoes" -->
         <div id="opcoes">
             <label for="senioridade">Selecione seu nível no mercado de Trabalho: </label><br>
             <select id="senioridade">
