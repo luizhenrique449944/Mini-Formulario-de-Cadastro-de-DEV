@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="ÍCONE/check-form_116472.ico" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+    <!-- Título da página -->
     <title>Mini Formulário Cadastro</title>
 </head>
 
@@ -34,14 +35,18 @@
                 <label for="sobrenome">Sobrenome:</label>
                 <input type="text" name="Sobrenome" id="sobrenome" required>
             </div>
+
         <!-- Tag <div> com id "email" -->
             <div id="email">
                 <label for="email">Email:</label>
                 <input type="text" name="E-mail" id="email" required>
             </div>
         </fieldset>
-        <!-- Tag <p> com id "aplicacao" e Tag <div> com a CLASSE "tecnologia" -->
+
+        <!-- Tag <p> com id "aplicacao" -->
         <p id="aplicacao">De qual lado da aplicação você desenvolve?</p>
+
+        <!-- Tag <div> com a CLASSE "tecnologia, mais 3 opções de botões selecionáveis (radio button) -->
         <div class="tecnologia">
             <input type="radio" class="desenvolvedor" name="Desenvolvedor" value="Front-End" checked>
             <label>Front-end</label><br>
@@ -50,9 +55,11 @@
             <input type="radio" class="desenvolvedor" name="Desenvolvedor" value="FullStacks">
             <label>FullStacks</label>
         </div>
+
         <!-- Tag <div> com id "opcoes" -->
         <div id="opcoes">
             <label for="senioridade">Selecione seu nível no mercado de Trabalho: </label><br>
+            <!-- Tag <select> com id "senioridade" -->
             <select id="senioridade">
                 <option selected disabled value="Selecione">Selecione</option>
                 <section class="opcoescores">
@@ -62,9 +69,11 @@
                 </section>
             </select>
         </div>
+
+        <!-- Tag <fieldset> com CLASSE "linguagens" -->
         <fieldset class="linguagens">
             <label id="paragrafo">Selecione a Linguagem das Tecnologias que utiliza:</label>
-
+            <!-- Tag <div> com as CLASSES "tecnologia1", "tecnologia2", "tecnologia3", "tecnologia4", "tecnologia5", tecnologia6, "tecnologia7", "tecnologia8", "tecnologia9", "tecnologia10", "tecnologia11", "tecnologia12", "tecnologia13", "tecnologia14" -->
             <div class="tecnologia1">
                 <input type="checkbox" value="HTML" name="tecnologia1">
                 <label>HTML</label>
@@ -123,6 +132,7 @@
             </div>
         </fieldset>
 
+        <!-- Tag <label> com a CLASSE "bancodedadosselecione", Tag <select> com a CLASSE "bancodedados" e tag <option> com opções a serem selecionadas -->
         <label class="bancodedadosselecione">Selecione a Tecnologia (Banco de Dados)</label>
         <select class="bancodedados">
             <option selected disabled value="selecione">Selecione</option>
@@ -134,8 +144,11 @@
             <option value="sqlserver">SQL Server</option>
         </select>
 
+        <!-- Tag <fieldset> com a CLASSE "projeto1" -->
         <fieldset class="projeto1">
             <label>Selecione o Padrão de Projeto: </label><br>
+
+            <!-- Tag <select> com a CLASSE "campoprojeto1", e tags <option> com 2 opções a serem selecionados -->
             <select class="campoprojeto1">
                 <option selected disabled value="selecione">Selecione</option>
                 <option value="rest">REST</option>
@@ -143,6 +156,7 @@
             </select>
         </fieldset>
 
+        <!-- Tag fieldset com a CLASSE "projeto2", mais a tag <select> com a CLASSE "campoprojeto2", com 2 opções a serem selecionados -->
         <fieldset class="projeto2">
             <label>Selecione o CI/CD</label><br>
             <select class="campoprojeto2">
@@ -150,9 +164,9 @@
                 <option value="docker">DOCKER</option>
                 <option value="git">GIT</option>
             </select>
-
         </fieldset>
-
+      
+         <!-- Tag fieldset com a CLASSE "projeto3", mais a tag <select> com a CLASSE "campoprojeto3", com 2 opções a serem selecionadas -->
         <fieldset class="projeto3">
             <label>Selecione a Engenharia de Software</label><br>
             <select class="campoprojeto3">
@@ -160,14 +174,17 @@
                 <option value="scrum">SCRUM</option>
                 <option value="uml">UML</option>
             </select>
-
         </fieldset>
 
+        <!-- Tag <div> com id "experiencia" -->
         <div id="experiencia">
             <label>Conte um pouco da sua experiência: </label>
         </div>
+        
+        <!--Tag <textarea> com id "comentario" -->
         <textarea name="comentário" id="comentario" cols="30" rows="6"></textarea>
         <br>
+        <!-- Tag <button> com type "submit" -->
         <button type="submit" value="Concluído">Concluído</button>
 
     </form>
