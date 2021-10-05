@@ -298,13 +298,40 @@ select.bancodedados{
  button:hover{
      background-color: #7114F5;
  }
- @media (max-width: 800px) {
-     body {
-        width: 100%;
+ /*Media query resolução de 1615px até 1680px*/
+ @media only screen and (min-width: 1615px) and (max-width: 1680px) {
+     .formulario {
+        width: 420px;
+     }
+     #paragrafo {
+        margin-top: 20px; 
+     }
+     .linguagens {
+         float: left;
      }
  }
+ /*Media query resolução de 1525px até 1615px*/
+ @media only screen and (min-width: 1525px) and (max-width: 1615px) {
+     .formulario {
+         width: 420px;
+         text-align: center;
+     }
+     textarea#comentario {
+         width: 500px;
+         text-align: center;
+     }
+     select.bancodedados, fieldset.projeto1, select.campoprojeto1, select.campoprojeto2, select.campoprojeto3 {
+         text-align: center;
+         width: 400px;
+     }
+     label#paragrafo {
+        margin-top: 20px; 
+     }
+     #paragrafo {
+        margin-top: 20px;
+   }
  
-
+ }
  
 
  
