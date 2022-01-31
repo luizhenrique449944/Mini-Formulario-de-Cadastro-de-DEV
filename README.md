@@ -1,2 +1,2 @@
-# Mini-Formulario-de-Cadastro-de-DEV...
+# Mini-Formulario-de-Cadastro-de-DEV
 Projeto em andamento!
